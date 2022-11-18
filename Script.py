@@ -1,15 +1,15 @@
 class script(object):
-    START_TXT = """<b>Hello {} 👋🏻 Im Search Bot I can share Movies and Series 😁.</b>
+    START_TXT = """<b>Hello {} 👋🏻 Im a movie provider bot of @CinemaCompanyofficials I can share Movies and Series 😁.</b>
     
-  𝙅𝙤𝙞𝙣 @nvsmovielink
+  𝙅𝙤𝙞𝙣 @CinemaCompanyOffiz
 
 ○ Notice 📙:-
 
 ○Dont Spam Me...🤒
 
-😎 Powered by @tgnvs
+😎 Powered by @CinemaCompanyofficials
 
-©️ Maintained By @nvscloudx
+©️ Maintained By @Tiyaan_SH
 """
 
     HELP_TXT = """𝙷𝙴𝚈 {}
@@ -19,30 +19,20 @@ class script(object):
 
 ○Dont Spam Me...🤒
 
-😎 Powered by @tgnvs @nvsmovielink
+😎 Powered by CinemaCompanyofficials
 
-©️ Maintained By @nvscloudx"""
+©️ Maintained By @Tiyaan_SH"""
 
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=http://t.me/angel_luciferbot><b>𝙻𝚄𝙲𝙸𝙵𝙴𝚁 𝙼𝙾𝚁𝙽𝙸𝙽𝙶𝚂𝚃𝙰𝚁</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=http://cinemacompany_manager_bot><b>Cinema Company 🎬</b></a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/nvscloudx><b>𝙽𝚅𝚂𝙲𝙻𝙾𝚄𝙳𝚇</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : 𝚅𝙿𝚂\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/tgnvs><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/sreehari3><b></b>SH</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
-    SOURCE_TXT = """<b>Donation</b>
-<b>Thanks for showing interest in donation
-Donate Us To Keep Alive
-Continously Alive
-
-You Can Send Any Amount
-Donate Only One Rupee
-Of 10₹,20₹,30₹,50₹,100₹ 😁
-
-💸Payment Methods:
-Only UPI
-UPI:-</b> tgnvs@airtel
--<b> <a href=https://upier.vercel.app/pay/tgnvs@airtel?am=15>Donation Link</a></b>"""
+    SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
+» I will Create One Bot For You<b>
+» Contact Me @Tiyaan_SH<b>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -68,7 +58,7 @@ UPI:-</b> tgnvs@airtel
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/tgnvs)</code>
+<code>[Button Text](buttonurl:https://t.me/CinemaCompanyofficials)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
