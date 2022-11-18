@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                 InlineKeyboardButton('❤ Donation Link', url='https://upier.vercel.app/pay/tgnvs@airtel')
+                 InlineKeyboardButton('🤖ᴜᴘᴅᴀᴛᴇ🤖', url='https://t.me/CinemaCompanyOffiz')
             ],
             [
-                InlineKeyboardButton('Join Movie Channel', url=f"https://t.me/nvsmovielink")
+                InlineKeyboardButton('Join Movie Channel', url=f"https://t.me/CinemaCompanyMovie")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,10 +42,9 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('♥️ Donation', callback_data='source')
-        ],[
-            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/tgnvs'),
-            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/nvsmovielink')
+            
+            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/CinemaCompanyOffiz'),
+            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/CinemaCompanyMovie')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
@@ -90,8 +89,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('♥️ Donation', callback_data='source')
         ],[
-            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/tgnvs'),
-            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/CinemaCompanyOffiz'),
+            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/CinemaCompanyMovie')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
@@ -243,13 +242,10 @@ async def start(client, message):
     buttons = [
                     [
                         InlineKeyboardButton('🚸 ᴅᴇʟᴇᴛᴇ', callback_data='close_data'),
-                        InlineKeyboardButton('💞 sʜᴀʀᴇ', url='https://t.me/share/url?url=NVS+Movie+Request+Group+%0D%0A+%0D%0A%F0%9F%91%87+%0D%0AWhatever+you+might+ask%2C+you+will+get..+%E2%9D%A4%EF%B8%8F+%0D%0A+%0D%0A%F0%9F%91%87+Join%0D%0A+https%3A%2F%2Ft.me%2Fnvsmovielink')
+                        InlineKeyboardButton('💞 sʜᴀʀᴇ', url='https://t.me/CinemaCompanyofficials')
                     ],
                     [
                         InlineKeyboardButton(text=f'🌿 Fɪʟᴇ sɪᴢᴇ 【 {size} 】🌿', callback_data='gxneo')
-                    ],
-                    [
-                         InlineKeyboardButton('❤ Donation Link', url='https://upier.vercel.app/pay/tgnvs@airtel')
                     ]
                     ]
     await client.send_cached_media(
