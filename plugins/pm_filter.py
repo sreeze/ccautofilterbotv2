@@ -74,8 +74,8 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+ONSD-vaHdJliOWQ9'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/CinemaCompanyMovie'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CinemaCompanyOffiz')
         ]
     )
    
@@ -89,7 +89,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/tgnvs')]
+    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/CinemaCompanyDiscussion')]
 )
     if n_offset == 0:
         btn.append(
@@ -140,7 +140,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌</b>\n› <a href=https://t.me/nvsmovielink><b>Ask Admins to add in this group.</b></a>", disable_web_page_preview=True)
+            k = await query.message.edit("<b>💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌</b>\n› <a href=https://t.me/CinemaCompanyofficials><b>Ask Admins to add in this group.</b></a>", disable_web_page_preview=True)
             await asyncio.sleep(10)
             await k.delete()
 
@@ -413,10 +413,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('♥️ Donation', callback_data='source')
-        ],[
-            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/tgnvs'),
-            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/nvsmovielink')
+            
+            InlineKeyboardButton('〽️ 𝙐𝙥𝙙𝙖𝙩𝙚𝙨', url='https://t.me/CinemaCompanyOffiz'),
+            InlineKeyboardButton('🎬 𝙈𝙤𝙫𝙞𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/CinemaCompanyMovie')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
@@ -430,8 +429,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Entered Back To Main Menu')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('♥️ Donation', callback_data='source')
-        ],[
             InlineKeyboardButton('𝙈𝙖𝙣𝙪𝙖𝙡 𝙁𝙞𝙡𝙩𝙚𝙧', callback_data='manuelfilter'),
             InlineKeyboardButton('𝘼𝙪𝙩𝙤 𝙁𝙞𝙡𝙩𝙚𝙧', callback_data='autofilter')
         ], [
@@ -450,8 +447,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         await query.answer("You clicked About Me")
         buttons = [[
-            InlineKeyboardButton('♥️ Donation', callback_data='source')
-        ],[
             InlineKeyboardButton('🏠 𝙃𝙊𝙈𝙀', callback_data='start'),
             InlineKeyboardButton('🔮 𝙎𝙏𝘼𝙏𝙐𝙎', callback_data='stats')
         ],[
@@ -466,7 +461,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         await query.answer("You Entered Into Paid Promotion Tab")
         buttons = [[
-            InlineKeyboardButton('❤ Donation Link', url='https://upier.vercel.app/pay/tgnvs@airtel')
+            InlineKeyboardButton('Source', url='https://t.me/CinemaCompanyofficials')
         ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
@@ -684,7 +679,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/nvstg')]
+    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/CinemaCompanyDiscussion')]
 )
 
     
@@ -692,8 +687,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+ONSD-vaHdJliOWQ9'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/nvsmovielink')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/CinemaCompanyMovie'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/CinemaCompanyOffiz')
         ]
     )
     
