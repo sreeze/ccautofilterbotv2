@@ -9,7 +9,7 @@ class script(object):
 
 😎 Powered by @CinemaCompanyofficials
 
-©️ Maintained By @Tiyaan_SH
+©️ Maintained By @Tiyaan_bots
 """
 
     HELP_TXT = """𝙷𝙴𝚈 {}
@@ -21,7 +21,7 @@ class script(object):
 
 😎 Powered by CinemaCompanyofficials
 
-©️ Maintained By @Tiyaan_SH"""
+©️ Maintained By @Tiyaan_bots"""
 
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=http://cinemacompany_manager_bot><b>Cinema Company 🎬</b></a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/sreehari3><b></b>SH</a>\n
