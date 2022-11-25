@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hello {},
+    START_TXT = """<b>Hello {},\n
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 👋🏻 Im a movie provider bot of @CinemaCompanyofficials I can share Movies and Series 😍\n
 
 𝙅𝙤𝙞𝙣 @CinemaCompanyOfficials for Movie Updates\n
