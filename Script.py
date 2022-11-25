@@ -1,22 +1,22 @@
 class script(object):
     START_TXT = """<b>Hello {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 👋🏻 Im a movie provider bot of @CinemaCompanyofficials I can share Movies and Series 😍
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 👋🏻 Im a movie provider bot of @CinemaCompanyofficials I can share Movies and Series 😍\n
 
-𝙅𝙤𝙞𝙣 @CinemaCompanyOfficials for Movie Updates
+𝙅𝙤𝙞𝙣 @CinemaCompanyOfficials for Movie Updates\n
 
 🅝🅞🅣🅘🅒🅔 📙
-𝕯𝖔𝖓𝖙 𝕾𝖕𝖆𝖒 𝕸𝖊...🤒
+𝕯𝖔𝖓𝖙 𝕾𝖕𝖆𝖒 𝕸𝖊...🤒\n
 
-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 @CinemaCompanyofficials
+𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 @CinemaCompanyofficials\n
 
-𝗠𝗮𝗶𝗻𝘁𝗮𝗶𝗻𝗲𝗱 𝗕𝘆 @Tiyaan_bots
+𝗠𝗮𝗶𝗻𝘁𝗮𝗶𝗻𝗲𝗱 𝗕𝘆 @Tiyaan_bots\n
 """
     HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.\n
 🅝🅞🅣🅘🅒🅔 📙
-𝕯𝖔𝖓𝖙 𝕾𝖕𝖆𝖒 𝕸𝖊...🤒
+𝕯𝖔𝖓𝖙 𝕾𝖕𝖆𝖒 𝕸𝖊...🤒\n
 
-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 @CinemaCompanyofficials
+𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 @CinemaCompanyofficials\n
 
 𝗠𝗮𝗶𝗻𝘁𝗮𝗶𝗻𝗲𝗱 𝗕𝘆 @Tiyaan_bots
 """
