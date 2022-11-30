@@ -228,7 +228,7 @@ def get_name(name):
     name = name.replace("f&t", '')
     name = name.replace("fbm", '')
     name = name.replace("mwkott", '')
-    name = name.replace("team_hdt", '')
+    name = name.replace("@team_hdt", '[CC]')
     name = name.replace("worldcinematoday", '')
     name = name.replace("cinematic_world", '')
     name = name.replace("cinema", '')
