@@ -87,7 +87,7 @@ async def next_page(bot, query):
     # How to Download button
 
     btn.append(
-    [InlineKeyboardButton(text="⚡Discussion for movies not recived⚡", url='https://t.me/CinemaCompanyDiscussion')]
+    [InlineKeyboardButton(text="⚡Discussion for movies not recived⚡", url='https://t.me/Sir_Pablo_bot')]
 )
     if n_offset == 0:
         btn.append(
@@ -672,7 +672,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton(text="⚡Discussion for movies not recived⚡", url='https://t.me/CinemaCompanyDiscussion')]
+    [InlineKeyboardButton(text="⚡Discussion for movies not recived⚡", url='https://t.me/Sir_Pablo_bot')]
 )
 
     
