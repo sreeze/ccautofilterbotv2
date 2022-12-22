@@ -115,12 +115,12 @@ This module only works for my admins
 👥 ɢʀᴏᴜᴘs: <code>{}</code>
 🗂️ ᴏᴄᴄᴜᴘɪᴇᴅ: <code>{}</code>
 """
-    LOG_TEXT_G = """#NewGroup
+    LOG_TEXT_G = """#NewGroupV2
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """#NewUserV2
 ID - <code>{}</code>
 Name - {}
 """
